@@ -29,14 +29,15 @@
             cursor: pointer;
             transition:450ms;
             transform-origin: center left;
+            background-color: aqua;
         }
-        .carousel__item:hover ~ .carousel__item{
+        .carousel-item:hover ~ .carousel-item{
         transform: translate3d(100px,0,0);
         }
-        .carousel__container:hover .carousel__item{
+        .carousel__container:hover .carousel-item{
         opacity:0.3;    
         }
-        .carousel__container:hover .carousel__item:hover{
+        .carousel__container:hover .carousel-item:hover{
         transform: scale(1.5);
         opacity:1;
         }
